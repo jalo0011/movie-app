@@ -1,0 +1,354 @@
+@import url('https://fonts.googleapis.com/css?family=Bitter:700|Noto+Sans');
+body{
+	margin: 0;
+	box-sizing: border-box;
+	overflow:scroll;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 10px;
+	text-align: center;
+	background-color: #000;
+}
+html{
+	font-size: 20px;
+	line-height: 1.5;
+}
+h1{
+	font-family: Bitter,"Times New Roman", serif;
+}
+h2{
+	font-family: Bitter,"Times New Roman", serif;
+}
+h3, p{
+	font-family: "Noto Sans", helvetica, arial, sans-serif;
+}
+li{
+}
+section{
+	padding: 1rem 0;
+}
+/*NAV*/
+.page{
+	display:none;
+}
+.page.active{
+	display:block;
+}
+.not{
+	display:none;
+}
+/*SEARCH*/
+.search{
+	position: fixed;
+	z-index: 100;
+	top:25%;
+	right:0;
+	bottom:0;
+	left:0;
+	height: 3rem;
+}
+#search-input{
+	position: absolute;
+	z-index: 110;
+	height: 3rem;
+	left: 0;
+	top: 0;
+	right: 1.5rem;
+	width: 100%;
+	padding: 0 1rem;
+	font-size: 1.8rem;
+	background-color: #191610;
+	color: #01d277;
+	text-align: center;
+	font-family: Bitter,"Times New Roman", serif;
+	font-style: italic;
+}
+#search-button{
+	position: absolute;
+	z-index: 120;
+	height: 3rem;
+	width: 3rem;
+	right: 0;
+	top: 0;
+	cursor: pointer;
+	box-shadow: 2px 2px 2px 2px #01d277;
+	background-color: #01d277;
+}
+.moveButtonTop{
+	transition: transform 1s ease;
+	transform: translateY(-9.5rem);
+}
+#back-button{
+	position: absolute;
+	z-index: 130;
+	height: 3rem;
+	width: 3rem;
+	top: 2;
+	cursor: pointer;
+	box-shadow: 2px 2px 2px 2px #01d277;
+	background-color: #01d277;
+}
+#bb-img{
+	height: 2.7rem;
+	width: 3rem;
+}
+#sb-img{
+	height: 3rem;
+	width: 3rem;
+}
+.content img{
+	border: 8px solid #FFF;
+}
+.content h3{
+	background-color: #000;
+	color: #FFF;
+}
+.content {
+	background-color: #000;
+	color: #FFF;
+}
+.content h2{
+	color: #FFF;
+}
+.Searchtitle, .Recommendtitle{
+	margin-top: 5rem;
+	color: #FFF;
+}
+.releaseDate{
+	color: #FFF;
+}
+/*SEARCH-RES*/
+.movie{
+	max-width: 800px;
+	padding: 1rem;
+	border: 1px solid #01d277;
+	overflow: auto;
+	/*make border wrap floated children*/
+	clear:both;
+	box-shadow: 5px 5px 50px 15px #01d277;
+	margin: 0 auto 15px auto;
+}
+.poster{
+	float: left;
+	margin: 0 0.5rem 0.5rem 0;
+	/*space between the text and the image*/
+	width: 150px;
+	height: auto;
+	min-height: 150px;
+}
+.movieTitle{
+	font-size: 1.3rem;
+	color:#333;
+}
+.description{
+	font-size: 1rem;
+	color:#888;
+}
+.attribution{
+	text-align: center;
+	width: 40%;
+}
+footer {
+	background-color: #FFF;
+}
+footer .attribution{
+	margin: 0 auto;
+}
+.logoMovieDB{
+	margin: 0 auto;
+	position: absolute;
+	height: 80%;
+	width: 80%;
+	right: 8%;
+	background-image: radial-gradient(#01d277,black 80%)
+}
+.hide{
+	display: none;
+}
+div .titleImage{
+	margin: 0 auto;
+	margin-bottom: -5rem;
+	height: 40%;
+	width: 40%;
+}
+
+
+@media screen and (min-width: 600px){
+
+    @import url('https://fonts.googleapis.com/css?family=Bitter:700|Noto+Sans');
+body{
+	margin: 0;
+	box-sizing: border-box;
+	overflow:scroll;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 10px;
+	text-align: center;
+	background-color: #000;
+}
+html{
+	font-size: 20px;
+	line-height: 1.5;
+}
+h1{
+	font-family: Bitter,"Times New Roman", serif;
+}
+h2{
+	font-family: Bitter,"Times New Roman", serif;
+}
+h3{
+	font-family: "Noto Sans", helvetica, arial, sans-serif;
+}
+li{
+}
+section{
+	padding: 1rem 0;
+}
+/*NAV*/
+.page{
+	display:none;
+}
+.page.active{
+	display:block;
+}
+.not{
+	display:none;
+}
+/*SEARCH*/
+.search{
+	position: fixed;
+	z-index: 100;
+	top:25%;
+	right:0;
+	bottom:0;
+	left:0;
+	height: 3rem;
+}
+#search-input{
+	position: absolute;
+	z-index: 110;
+	height: 3rem;
+	left: 0;
+	top: 0;
+	right: 1.5rem;
+	width: 100%;
+	padding: 0 1rem;
+	font-size: 1.8rem;
+	background-color: #191610;
+	color: #01d277;
+	text-align: center;
+	font-family: Bitter,"Times New Roman", serif;
+	font-style: italic;
+}
+#search-button{
+	position: absolute;
+	z-index: 120;
+	height: 3rem;
+	width: 3rem;
+	right: 0;
+	top: 0;
+	cursor: pointer;
+	box-shadow: 2px 2px 2px 2px #01d277;
+	background-color: #01d277;
+}
+.moveButtonTop{
+	transition: transform 1s ease;
+	transform: translateY(-9.5rem);
+}
+#back-button{
+	position: absolute;
+	z-index: 130;
+	height: 3rem;
+	width: 3rem;
+	top: 2;
+	cursor: pointer;
+	box-shadow: 2px 2px 2px 2px #01d277;
+	background-color: #01d277;
+}
+#bb-img{
+	height: 2.7rem;
+	width: 3rem;
+}
+#sb-img{
+	height: 3rem;
+	width: 3rem;
+}
+.content img{
+	border: 8px solid #FFF;
+}
+.content h3{
+	background-color: #000;
+	color: #FFF;
+}
+.content {
+	background-color: #000;
+	color: #FFF;
+}
+.content h2{
+	color: #FFF;
+}
+.Searchtitle, .Recommendtitle{
+	margin-top: 5rem;
+	color: #FFF;
+}
+.releaseDate{
+	color: #FFF;
+}
+/*SEARCH-RES*/
+.movie{
+	max-width: 800px;
+	padding: 1rem;
+	border: 1px solid #01d277;
+	overflow: auto;
+	/*make border wrap floated children*/
+	clear:both;
+	box-shadow: 5px 5px 50px 15px #01d277;
+	margin: 0 auto 15px auto;
+}
+.poster{
+	float: left;
+	margin: 0 0.5rem 0.5rem 0;
+	/*space between the text and the image*/
+	width: 150px;
+	height: auto;
+	min-height: 150px;
+}
+.movieTitle{
+	font-size: 1.3rem;
+	color:#333;
+}
+.description{
+	font-size: 1rem;
+	color:#888;
+}
+.attribution{
+	text-align: center;
+	width: 40%;
+}
+footer {
+	background-color: #FFF;
+}
+footer .attribution{
+	margin: 0 auto;
+}
+.logoMovieDB{
+	margin: 0 auto;
+	position: absolute;
+	height: 30%;
+	width: 30%;
+	right: 35%;
+	background-image: radial-gradient(#01d277,black 80%)
+}
+.hide{
+	display: none;
+}
+div .titleImage{
+	margin: 0 auto;
+	margin-bottom: -5rem;
+	height: 20%;
+	width: 20%;
+}
+    
+}
+
+

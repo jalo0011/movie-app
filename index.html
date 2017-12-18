@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Movie Recommendations</title>
+    <meta name="viewport" content="width=device-width" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="./css/main.css" />
+    
+</head>
+
+<body>
+    <main>
+        <header class="search">
+            <!--            <img id="back-button" data-src="./img/caret.svg" class="iconic iconic-md" data-direction="left" alt="Back Button" title="Back"/>-->
+            <div id="search-button"><img id="sb-img" class="iconic iconic-md" data-src="./img/magnifying-glass-lg.svg" alt="Search" title="Search" /></div>
+            <div id="back-button"><img id="bb-img" class="iconic iconic-md" data-src="./img/caret.svg" alt="Back" data-direction="left" title="back"></div>
+            <input type="text" id="search-input" placeholder="Search" />
+        </header>
+
+        <div><img class="titleImage" src="img/popcorn.svg" alt="popcorn" title="MovieDB"></div>
+        
+           
+        <div class="page active" id="search-results">
+            <section class="Searchtitle">
+                <h1 class="titleText"></h1>
+            </section>
+            <section class="content">
+                
+            </section>
+            
+
+        </div>
+
+        
+        <div class="page" id="recommend-results">
+            <section class="Recommendtitle">
+                <h1 class="recommendedTitle"></h1>
+            </section>
+            <section class="content">
+            </section>
+
+        </div>
+        
+    </main>
+
+    <div class="loading not">
+        <img class="iconic" data-src="./img/loop-circular.svg" title="loop circular" />
+    </div>
+    
+    <footer>
+        <div class="attribution">
+                <img class="logoMovieDB" src="/img/powered-by-rectangle-blue.svg" alt="The Movie DB" />
+            </div>
+    </footer>
+
+
+    <script src="./js/iconic.min.js"></script>
+    <script src="./js/key.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>
