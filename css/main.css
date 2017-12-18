@@ -154,7 +154,7 @@ footer {
 footer .attribution{
 	margin: 0 auto;
 }
-.logoMovieDB{
+#logoMovieDB{
 	margin: 0 auto;
 	position: absolute;
 	height: 80%;
@@ -331,7 +331,7 @@ footer {
 footer .attribution{
 	margin: 0 auto;
 }
-.logoMovieDB{
+#logoMovieDB{
 	margin: 0 auto;
 	position: absolute;
 	height: 30%;
