@@ -76,7 +76,7 @@ section{
 }
 .moveButtonTop{
 	transition: transform 1s ease;
-	transform: translateY(-9rem);
+	transform: translateY(-8rem);
 }
 #back-button{
 	position: absolute;
