@@ -19,7 +19,7 @@ fetch the recommendations based on the movie id
 *****/
 
 let app = {
-    URL: 'http://api.themoviedb.org/3/',
+    URL: 'https://api.themoviedb.org/3/',
     IMAGEBASEURL: 'https://image.tmdb.org/t/p/w185',
     INPUT: null,
     init: function(){
